@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- device repos -->
+    <!-- source: Lineage-BBKey2, lineage-22.2-kernel-4.19; update/verify for LOS 24.0 -->
     <project name="Xmind404/android_device_blackberry_sdm660-common" path="device/blackberry/sdm660-common" remote="github" revision="lineage-24.0" />
     <project name="Xmind404/android_device_blackberry_athena" path="device/blackberry/athena" remote="github" revision="lineage-24.0" />
 
-    <!-- blobs -->
+    <!-- source: Lineage-BBKey2, lineage-22.2-kernel-4.19; update/verify for LOS 24.0 -->
     <project name="Xmind404/android_vendor_blackberry_sdm660-common" path="vendor/blackberry/sdm660-common" remote="github" revision="lineage-24.0" />
     <project name="Xmind404/android_vendor_blackberry_athena" path="vendor/blackberry/athena" remote="github" revision="lineage-24.0" />
 
-    <!-- kernel (4.19) -->
+    <!-- source: Lineage-BBKey2, lineage-22.2; update required for LOS 24.0 -->
     <project name="Xmind404/android_kernel_blackberry_sdm660-4p19" path="kernel/blackberry/sdm660-4p19" remote="github" revision="lineage-24.0-athena" />
 
-    <!-- hardware -->
+    <!-- source: Xmind404, lineage-22.2; update/verify for LOS 24.0 -->
     <project name="Xmind404/android_hardware_blackberry" path="hardware/blackberry" remote="github" revision="lineage-24.0-athena" />
 
-    <!-- framework -->
+    <!-- source: official LineageOS, lineage-24.0; 38 commits to review from Lineage-BBKey2 lineage-22.2 -->
     <remove-project path="frameworks/base" />
     <project name="Xmind404/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-24.0-athena" />
 
+    <!-- source: official LineageOS, lineage-24.0; 5 commits to review from Lineage-BBKey2 lineage-22.2 -->
     <remove-project path="frameworks/native" />
     <project name="Xmind404/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-24.0-athena" />
 
-    <!-- packages -->
+    <!-- source: official LineageOS, lineage-24.0; 3 commits to review from Lineage-BBKey2 lineage-22.2 -->
     <remove-project path="packages/modules/Bluetooth" />
     <project name="Xmind404/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="github" revision="lineage-24.0" />
 </manifest>
