@@ -47,15 +47,17 @@
 
     <!-- Qualcomm CAF SDM660 -->
     <remove-project path="hardware/qcom-caf/sdm660/audio" />
+    
     <project
-        name="LineageOS/android_hardware_qcom_audio"
+        name="Xmind404/android_hardware_qcom_audio"
         path="hardware/qcom-caf/sdm660/audio"
         remote="github"
-        revision="lineage-24.0-caf-sdm660" />
+        revision="lineage-24.0-caf-msm8998" />
 
     <remove-project path="hardware/qcom-caf/sdm660/display" />
+
     <project
-        name="LineageOS/android_hardware_qcom_display"
+        name="Xmind404/android_hardware_qcom_display"
         path="hardware/qcom-caf/sdm660/display"
         remote="github"
         revision="lineage-24.0-caf-sdm660" />
