@@ -92,7 +92,7 @@
 
     
     <!-- Aperture Camera -->
-    <remove-project name="LineageOS/android_packages_apps_Aperture" />
+    <remove-project name="packages/apps/Aperture" />
 
     <project
         name="Xmind404/android_packages_apps_Aperture"
