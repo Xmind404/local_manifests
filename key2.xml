@@ -92,11 +92,19 @@
 
     
     <!-- Aperture Camera -->
-    <remove-project name="packages/apps/Aperture" />
+    <remove-project path="packages/apps/Aperture" />
 
     <project
         name="Xmind404/android_packages_apps_Aperture"
         path="packages/apps/Aperture"
+        remote="github"
+        revision="lineage-24.0" />
+
+    
+    <!-- BlackBerry media (sounds, wallpapers, boot animation) -->
+    <project
+        name="Xmind404/android_vendor_blackberry_media"
+        path="vendor/blackberry/media"
         remote="github"
         revision="lineage-24.0" />
 </manifest>
