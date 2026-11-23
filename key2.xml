@@ -52,7 +52,7 @@
         name="Xmind404/android_hardware_qcom_audio"
         path="hardware/qcom-caf/sdm660/audio"
         remote="github"
-        revision="lineage-24.0-caf-msm8998" />
+        revision="lineage-24.0-caf-sdm660" />
 
     <remove-project path="hardware/qcom-caf/sdm660/display" />
 
